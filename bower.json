@@ -1,0 +1,17 @@
+{
+  "name": "bikessite",
+  "description": "Bike site",
+  "main": "index.js",
+  "authors": [
+    "Orest Khomitskyi"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

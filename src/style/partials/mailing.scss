@@ -1,0 +1,41 @@
+#mailing{
+  width: 100%;
+  height: 483px;
+  background-color: #fff;
+}
+
+.mailing{
+  position: relative;
+  padding-top: 109px;
+  text-align: center;
+
+  & > h2{
+    font-size: 24pt;
+    font-style: italic;
+    color: #848789;
+  }
+  & form{
+    height: 69px;
+  }
+  & input[type=email]{
+    vertical-align: top;
+    padding: 27px 26px;
+    border: 1px solid #d3d7d9;
+    font-style: italic;
+    font-size: 20pt;
+    height: inherit;
+  }
+  & button{
+    vertical-align: top;
+    height: inherit;
+    color: #fff;
+    background-color: #64c29e;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    font-family: "Lato Light";
+    border: none;
+    font-size: 24pt;
+  }
+
+}
